@@ -1,0 +1,222 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: sans-serif;
+}
+
+/*-- NAVBAR --*/
+
+#navbar-box{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar{
+  background-image: linear-gradient(to right, #A417B9 , #651787) ;
+  padding: 0!important;
+}
+.navbar-brand img{
+  height: 40px;
+  padding-left: 10px;
+}
+.navbar-nav li{
+  padding: 0 10px;
+}
+.nav-item a{
+  color: #fff !important;
+  font-weight: 600;
+}
+.fa-bars{
+  color: #fff !important;
+  font-size: 30px;
+}
+.navbar-toggler:focus{
+box-shadow: none !important;
+}
+.navbar-toggler{
+  margin: 0 !important;
+}
+.navbar-nav{
+  text-align: right;
+}
+
+/*-- banner --*/
+#banner{
+  background-image: linear-gradient(to right, #A417B9 , #651787) ;
+  padding-top:5%;
+  color: #fff;
+}
+
+.banner-txt h1{
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  font-weight: 600;
+}
+
+.banner-txt img{
+  width: 45px;
+  margin: 20px;
+
+}
+.banner-txt a{
+  text-decoration: none;
+  color: #fff;
+}
+.banner-txt a:hover{
+  color: #fff;
+}
+
+/*-- services --*/
+.service-box img{
+  width: 100px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.service-box:hover img{
+  cursor: pointer;
+  transform: translateY(-40px);
+  transition: 0.5s;
+}
+.service-box p{
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+#services button{
+  background: linear-gradient(to right, #A417B9 , #651787) ;
+  outline: none;
+  border: 0;
+  box-shadow: none;
+  border-radius: 20px;
+  padding: 7px 20px;
+  margin-bottom: 50px;
+}
+.title{
+  margin: 30px 0px;
+}
+.title::before{
+  content: '';
+  width: 200px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background:  #A417B9;
+  transform: translateY(63px);
+}
+.title::after{
+  content: '';
+  width: 50px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background:  #A417B9;
+  margin-bottom: 40px;
+  transform: translateY(8px);
+}
+
+/*-- about --*/
+#about{
+  background-color: #F8F9FA;
+  padding: 50px 0;
+}
+
+.about-txt ul{
+  padding: 10px 0 0 25px;
+}
+.about-txt li{
+  margin-top: 10px;
+}
+.about-box{
+  padding-top: 5%;
+}
+
+/*-- TESTIMONIALS --*/ /* my code you can check to a nother method in C:\MyFiles\Web Dev\Udemy Course\7-Agency-Website-Code*/
+#testimonials{
+  padding: 70px 0;
+}
+.testimonials{
+  padding: 50px 0;
+}
+.testimonials img{
+  width: 60px;
+  border-radius: 50%;
+}
+.testimonials small{
+  display: inline-block;
+  padding-left: 10px;
+}
+.testi-box{
+  padding-bottom: 10px;
+}
+.testi-box::after{
+  content: '';
+  background: #A417B9;
+  width: 4px;
+  height: 100%;
+  display: block;
+  transform: translateY(-100%);
+  margin-left: -20px;
+}
+
+/*-- social media icons --*/
+#s-m-icons {
+  background-color: #F8F9FA;
+  padding: 100px 0;
+}
+.s-m-icons img{
+  width: 60px;
+  margin-top: 30px;
+}
+.s-m-icons a:hover img{
+  transform: translateY(-15px);
+  transition: 1s;
+  cursor: pointer;
+}
+
+/*-- contact --*/
+#contact{
+  background: linear-gradient(to right, #A417B9 , #651787) ;
+  color: #fff;
+}
+.contact{
+  padding-top: 30px;
+}
+.contact img{
+  width: 120px;
+  margin-bottom: 30px;
+}
+.contact .fas{
+  background: linear-gradient(to right, #A417B9 , #651787) ;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+.contact button{
+  display: block;
+  background:  linear-gradient(to right, #A417B9 , #651787) ;
+  outline: none;
+  border: 0;
+  box-shadow: none !important;
+  border-radius: 0;
+  margin-top: 30px;
+}
+.contact input{
+  box-shadow: none;
+  outline: none;
+  width: 70%;
+  height: 35px;
+  padding-left: 10px;
+}
+hr{
+  background-color: #fff !important ;
+  margin-top: 20px !important;
+}
+.copyright p{
+  margin: 0;
+  padding-bottom: 15px;
+}
